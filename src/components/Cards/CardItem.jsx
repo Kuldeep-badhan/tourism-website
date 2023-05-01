@@ -7,7 +7,7 @@ const CardItem = ({ imgSrc, text, label, path }) => {
       <li className="cards_item">
         <Link className="card_item_link" to={path}>
           <figure className="card_item_pic-wrap" data-category={label}>
-            <img src={imgSrc} alt="Travel Image" className="card_item_img" />
+            <img src={imgSrc} alt="Travel " className="card_item_img" />
           </figure>
         </Link>
         <div className="card_info">
